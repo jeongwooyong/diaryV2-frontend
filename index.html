@@ -1,10 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>diaryv2-frontend</title>
+    
+    <!-- 🌟 PWA: 안드로이드 및 일반 브라우저용 설정 파일 연결 -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- 🍎 PWA: 아이폰(iOS Safari) 홈 화면 아이콘 및 전체화면 설정 -->
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <!-- 🎨 PWA: 브라우저 주소창 주변 색상을 앱 테마에 맞게 흰색으로 설정 -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>쑥쑥이 다이어리</title>
   </head>
   <body>
     <div id="root"></div>
